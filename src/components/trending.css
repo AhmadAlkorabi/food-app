@@ -1,0 +1,35 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    flex: auto;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card p{
+                position:absolute;
+                bottom:0%;
+                z-index:10;
+                left:50%;
+                transform: translate(-50%, 0%);
+                width: 100%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 600;
+                text-align: cetner;
+                height: 40%;
+                overflow:hidden;
+}

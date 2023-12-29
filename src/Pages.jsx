@@ -6,7 +6,7 @@ import Info from './components/Info';
 const pages = (props) => {
   return (
         <Routes>
-          <Route path='/' element={<Home/> } />
+      <Route path='/food-app' element={<Home/> } />
       <Route path='/search/:name' element={<Cards/>} />
       <Route path='/Info/:name' element={ <Info/>} />
         </Routes>

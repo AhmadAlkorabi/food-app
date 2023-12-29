@@ -14,7 +14,7 @@ function App() {
           initial={{ y: -100 }}
           animate={{ y: 0 }}
           transition={{type:'spring', stiffness:200}}
-        ><Link className='icon container text-black  h1' to='/'><BiFoodMenu /></Link></motion.div>
+        ><Link className='icon container text-black  h1' to='/food-app'><BiFoodMenu /></Link></motion.div>
         <SerachBar />
         <Pages/>
       </BrowserRouter>
